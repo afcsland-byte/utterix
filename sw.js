@@ -1,7 +1,7 @@
 /* Utterix service worker: offline app shell + streak reminders.
    No push server: reminders fire when the app is opened/visible, or via
    Periodic Background Sync where the browser supports it (installed Chrome on Android). */
-const APP_CACHE = "utterix-app-v4";
+const APP_CACHE = "utterix-app-v5";
 const META_CACHE = "utterix-meta";
 const SHELL = ["./", "./manifest.webmanifest", "./icon-192.png", "./badge-72.png"];
 
